@@ -1,0 +1,1 @@
+# Europe-Wildfire-Mapping
