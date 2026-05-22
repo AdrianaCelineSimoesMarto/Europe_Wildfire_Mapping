@@ -16,14 +16,7 @@ The project uses two different data sources:
 2. A **European country boundary shapefile** used for the spatial join and country-level wildfire analysis. 
 > [!IMPORTANT]
 > This shapefile is **not included** in the repository and must be downloaded separately before running the project.
-
-Available for download at:
-https://data.dtu.dk/articles/dataset/Shapefile_of_European_countries/23686383
-
-Due to file size limitations, the shapefile is not included in this repository. It needs to be downloaded separately. -> Available for download at: https://data.dtu.dk/articles/dataset/Shapefile_of_European_countries/23686383
-
-
-
+> Available for download at: https://data.dtu.dk/articles/dataset/Shapefile_of_European_countries/23686383
 
 To run the project, place the shapefile and all associated files (`.shp`, `.shx`, `.dbf`, `.prj`, `.cpg`) inside the `data/` directory and ensure that the file path matches the one used in the notebook:
 
