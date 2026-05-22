@@ -2,7 +2,7 @@
 
 ## Project Title & Description:
 
-- Title: Wildfire Detection and Visualization in Europe using NASA FIRMS Data
+- Title: **Wildfire Detection and Visualization in Europe using NASA FIRMS Data**
 
 This project aims to answer the following Question: **Where have active wildfires been detected in Europe over the past 5 days, how do their characteristics (confidence, fire radiative power and day/night detection) vary spatially and in which countries is wildfire activity most concentrated?**
 
@@ -47,7 +47,9 @@ Before running the project, ensure that:
 
 The project consists of a single notebook that performs the complete workflow.
 
-**Run the notebook from top to bottom in the following order:**
+**Run the notebook from top to bottom.**
+
+The notebook follows the workflow outlined below:
 
 1. Import libraries and connect to the NASA FIRMS API.
 2. Download and filter wildfire detections for Europe.
