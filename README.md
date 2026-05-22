@@ -47,7 +47,7 @@ Before running the project, ensure that:
 
 The project consists of a single notebook that performs the complete workflow.
 
-**Run the notebook from top to bottom.**
+==**Run the notebook from top to bottom.**==
 
 The notebook follows the workflow outlined below:
 
