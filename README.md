@@ -5,6 +5,7 @@
 - Title: Wildfire Detection and Visualization in Europe using NASA FIRMS Data
 
 This project aims to answer the following Question: **Where are active wildfire detections located across Europe, how do they vary in intensity and confidence and which countries experience the highest concentration of wildfire activity?**
+
 The project combines data acquisition, spatial filtering, geospatial visualization and spatial aggregation techniques to provide an overview of current wildfire activity in Europe.
 
 ## Data Sources: 
@@ -14,7 +15,7 @@ The project uses two different data sources:
 1. **NASA FIRMS MODIS Near Real-Time (NRT) wildfire data**, which is accessed directly through the NASA API and therefore does not need to be stored in the repository -> URL: https://firms.modaps.eosdis.nasa.gov/api/ 
 2. A **European country boundary shapefile** used for the spatial join and country-level wildfire analysis. Due to file size limitations, the shapefile is not included in this repository. It needs to be downloaded separately. -> Available for download at: https://data.dtu.dk/articles/dataset/Shapefile_of_European_countries/23686383 
 
-To run the project, place the shapefile and all associated files (`.shp`, `.shx`, `.dbf`, `.prj`, etc.) inside the `data/` directory and ensure that the file path matches the one used in the notebook:
+To run the project, place the shapefile and all associated files (`.shp`, `.shx`, `.dbf`, `.prj`, `.cpg`) inside the `data/` directory and ensure that the file path matches the one used in the notebook:
 
 ```python
 europe_countries = gpd.read_file("data/Europe_merged.shp")
@@ -39,7 +40,7 @@ Install the required packages using:
 Before running the project, ensure that:
 
 1. The European country shapefile and all associated files (`.shp`, `.shx`, `.dbf`, `.prj`, etc.) are stored in the `data/` directory.
-2. A valid NASA FIRMS API key is available and inserted into the script.
+2. A valid NASA FIRMS API key is available and inserted into the script. A key can be generated on the linked NASA website
 3. All required Python libraries are installed.
 
 ## Execution Order: 
