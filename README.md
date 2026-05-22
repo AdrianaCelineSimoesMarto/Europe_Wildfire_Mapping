@@ -15,7 +15,8 @@ The project uses two different data sources:
 1. **NASA FIRMS MODIS Near Real-Time (NRT) wildfire data**, which is accessed directly through the NASA API and therefore does not need to be stored in the repository -> URL: https://firms.modaps.eosdis.nasa.gov/api/ 
 2. A **European country boundary shapefile** used for the spatial join and country-level wildfire analysis. 
 > [!IMPORTANT]
-> This shapefile is **not included** in the repository and must be downloaded separately before running the project.
+> The European country boundary shapefile is **not included** in the repository and must be downloaded separately before running the project.
+>
 > Available for download at: https://data.dtu.dk/articles/dataset/Shapefile_of_European_countries/23686383
 
 To run the project, place the shapefile and all associated files (`.shp`, `.shx`, `.dbf`, `.prj`, `.cpg`) inside the `data/` directory and ensure that the file path matches the one used in the notebook:
