@@ -4,7 +4,7 @@
 
 - Title: Wildfire Detection and Visualization in Europe using NASA FIRMS Data
 
-This project aims to answer the following Question: **Where are active wildfire detections located across Europe, how do they vary in intensity and confidence and which countries experience the highest concentration of wildfire activity?**
+This project aims to answer the following Question: **Where have active wildfires been detected in Europe over the past 5 days, how do their characteristics (confidence, fire radiative power and day/night detection) vary spatially and in which countries is wildfire activity most concentrated?**
 
 The project combines data acquisition, spatial filtering, geospatial visualization and spatial aggregation techniques to provide an overview of current wildfire activity in Europe.
 
