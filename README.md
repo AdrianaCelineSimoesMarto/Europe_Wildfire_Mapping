@@ -47,16 +47,15 @@ Before running the project, ensure that:
 
 The project consists of a single notebook that performs the complete workflow.
 
-Run the notebook from top to bottom in the following order:
+**Run the notebook from top to bottom in the following order:**
 
 1. Import libraries and connect to the NASA FIRMS API.
 2. Download and filter wildfire detections for Europe.
-3. Convert the data into a GeoDataFrame.
+3. Prepare the data for visualization by converting it into a GeoDataFrame and splitting it into two sets based on the confidence level.
 4. Create the interactive wildfire maps:
    - Confidence and Day/Night Detection Map
    - Confidence and Fire Radiative Power (FRP) Intensity Map
-5. Perform the spatial join between wildfire detections and European country boundaries.
-6. Generate the country-level wildfire count analysis.
+5. Perform a spatial join between wildfire detections and European country boundaries and generate a country-level analysis of wildfire counts.
 7. Create the final choropleth map showing wildfire detections per country.
 
-All sections should be executed sequentially, as later analyses depend on data generated in earlier steps.
+*All sections should be executed sequentially, as later analyses depend on data generated in earlier steps.*
